@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@layer utilities {
+}
+
+@layer base {
+  :root {
+
+    /* branding colors */
+    --color-primary: 180 174 196; 
+    --color-secondary: 180 140 210;
+    --color-tertiary: 221 205 190;
+    --color-primary-inverted: 255 255 255;
+    --color-primary-hover: 80 160 210;
+    --color-secondary-inverted: 255 255 255;
+    --color-secondary-hover: 160 120 190;
+
+    /* text colors */
+    --color-text-base: 250 250 250;
+    --color-text-muted: 120 120 120;
+    --color-text-inverted: 255 255 255;
+
+    /* background colors */
+    --color-bg-primary: 0 0 0;
+    --color-bg-secondary: 30 26 34;
+    --color-bg-tertiary: 230 235 245;
+
+    /* status colors */
+    --color-error: 220 90 90;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+}
