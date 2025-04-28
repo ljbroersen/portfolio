@@ -1,9 +1,9 @@
 <template>
-    <div class="border-[rgb(var(--color-primary))] border-1">
-        <div class="">
+  <div class="border-[1px] border-[rgb(var(--color-primary))] p-8">
+    <div class="p-8">
       <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">Software Engineer</h1>
-        <p>There is text here</p>
-        <p>Here too</p>
+      <p>There is text here</p>
+      <p>Here too</p>
     </div>
-    </div>
+  </div>
 </template>
