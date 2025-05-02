@@ -2,8 +2,10 @@
     <div class="border-[1px] border-[rgb(var(--color-primary))] border-t-[0px] p-8">
       <div class="flex flex-row p-8">
         <div class="w-1/2">
-        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">Software Engineer. Here to make an impact.</h1>
-        <p>I'm a software engineer based in Yokohama, Japan. With my work and skills, I would like to make a difference and help people</p>
+        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">My name is Lisa Broersen, a Full-stack Engineer based in Yokohama, Japan.</h1>
+        <p>Being able to work on both the frontend and the backend, my speciality lies in <b>JavaScript/TypeScript</b>, <b>React</b> and <b>Node.js</b>.</p>
+        <br />
+        <p>With my work and skills, I would like to make a difference and help people</p>
     </div>
     <div class="flex flex-col ml-24">
         <div class="w-[300px] h-[300px] bg-[rgb(var(--color-secondary))] flex justify-center items-center">

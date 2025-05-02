@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AboutMeCard from "./AboutMeCard.vue";
-import IntroductionCard from "./IntroductionCard.vue"
+// import IntroductionCard from "./IntroductionCard.vue"
 import ProjectsCard from "./ProjectsCard.vue";
 import SkillsCard from "./SkillsCard.vue";
 </script>
@@ -8,10 +8,11 @@ import SkillsCard from "./SkillsCard.vue";
 <template>
   <div class="min-h-screen flex justify-center bg-[rgb(var(--color-bg-primary))]">
     <div class="w-1/2 bg-[rgb(var(--color-bg-secondary))]">
-      <IntroductionCard />
+      <!-- <IntroductionCard /> -->
       <AboutMeCard />
       <ProjectsCard />
       <SkillsCard />
+      <!-- TODO: Add a footer -->
      </div>
   </div>
 </template>
