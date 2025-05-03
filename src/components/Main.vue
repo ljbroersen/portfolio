@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AboutMeCard from "./AboutMeCard.vue";
+import Footer from "./Footer.vue";
 // import IntroductionCard from "./IntroductionCard.vue"
 import ProjectsCard from "./ProjectsCard.vue";
 import SkillsCard from "./SkillsCard.vue";
@@ -12,7 +13,7 @@ import SkillsCard from "./SkillsCard.vue";
       <AboutMeCard />
       <ProjectsCard />
       <SkillsCard />
-      <!-- TODO: Add a footer -->
+      <Footer />
      </div>
   </div>
 </template>
