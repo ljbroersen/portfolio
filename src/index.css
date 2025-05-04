@@ -11,7 +11,7 @@
   :root {
 
     /* branding colors */
-    --color-primary: 180 174 196; 
+    --color-primary: 130 137 164; 
     --color-secondary: 180 140 210;
     --color-tertiary: 221 205 190;
     --color-primary-inverted: 255 255 255;
@@ -26,8 +26,8 @@
 
     /* background colors */
     --color-bg-primary: 0 0 0;
-    --color-bg-secondary: 30 26 34;
-    --color-bg-tertiary: 	41 37 48;
+    --color-bg-secondary: 22 21 34;
+    --color-bg-tertiary: 30	29 46;
 
     /* status colors */
     --color-error: 220 90 90;

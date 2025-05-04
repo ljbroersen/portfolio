@@ -1,5 +1,5 @@
 <template>
-    <div class="border-[1px] border-[rgb(var(--color-primary))] border-t-[0px] p-8">
+    <div class="border-[1px] border-[rgb(var(--color-text-base))] border-t-[0px] p-8">
       <div class="p-8">
         <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">Technical Skills</h1>
         <div class="mt-5">
