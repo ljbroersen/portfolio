@@ -1,5 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# 📌 Lisa Broersen – Portfolio
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to my personal portfolio! This site showcases my work and skills as a <b>Full-stack Engineer based in Yokohama, Japan.</b>
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+🌍 Supports English and Japanese. You can switch languages from the navigation bar.
+<br />
+📱 The app is optimalized for desktop and mobile devices.
+
+## 🛠️ Tech Stack
+
+<li><b>Frontend:</b> Vue 3, TypeScript, Tailwind CSS</li>
+<li><b>Internationalization:</b> i18n</li>
+<li><b>Deployment:</b> Vercel</li>
