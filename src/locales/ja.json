@@ -1,0 +1,60 @@
+{
+    "navbar": {
+      "about": "私について",
+      "projects": "プロジェクトとエンゲージメント",
+      "skills": "技術スキル"
+    },
+    "about": {
+      "heading": "ブローセン・リサと申します。日本の横浜を住んでいるフルスタックエンジニアです。",
+      "description": "フロントエンドとバックエンドの両方に対応できるエンジニアとして、JavaScript/TypeScript、React、Node.jsを得意としています。",
+      "description_two": "自分のスキルと仕事を通じて、人々の役に立ち、社会に貢献したいと考えています。",
+      "github_link": "GitHubでフォロー",
+      "linkedin_link": "LinkedInでフォロー",
+      "email_link": "lj.broersen@gmail.com"
+    },
+    "projects": {
+      "heading": "プロジェクトと取り組み",
+      "subheading_one": "プロジェクト",
+      "subheading_two": "エンゲージメント",
+      "tech_heading": "技術スタック",
+      "tech_frontend": "フロントエンド",
+      "tech_backend": "バックエンド",
+      "tech_other": "その他",
+      "tasks_heading": "担当業務",
+      "project_one_title": "Vitae Aggregate",
+      "project_one_description": "Vitae Aggregateは、Svelte、TypeScript、Tailwind CSS を使用して構築されたWebベースの履歴書管理システムです。ユーザーはATS対応のPDF形式で履歴書を作成、表示、編集、ダウンロードすることができます。",
+      "project_one_tech_frontend": "TypeScript、Svelte/SvelteKit、Tailwind CSS",
+      "project_one_tech_backend": "Python、Django REST、pytest、PostgreSQL",
+      "project_one_tech_other": "Docker、Figma",
+      "project_one_task_one": "後の動的利用を想定してデータベーススキーマを設計",
+      "project_one_task_two": "PythonとDjango REST APIでモデル、ビュー、ルートを設定し、PostgreSQLからのデータ取得を実装",
+      "project_one_task_three": "FigmaのモックアップをモバイルファーストでレスポンシブUIに変換",
+      "project_two_title": "TradEx",
+      "project_two_description": "TradExは、リアルタイムの金融ニュースとAIによる洞察を提供するアプリケーションです。外部APIと統合し、AIチャットボットを通じてパーソナライズされた金融ディスカッションが可能です。",
+      "project_two_tech_frontend": "TypeScript、React、Tailwind CSS、Vitest",
+      "project_two_tech_backend": "Python、FastAPI、pytest",
+      "project_two_tech_other": "-",
+      "project_two_task_one": "チャートとAI出力のレンダリングを可能にするバックエンドを構築",
+      "project_two_task_two": "FastAPIでAPIエンドポイントを設定",
+      "project_two_task_three": "フロントエンドとバックエンドの両方にpytestとVitestを用いたテスト環境を構築",
+      "project_three_title": "Find a Doc, Japan",
+      "project_three_description": "Find a Docは、日本における医療アクセスの向上を目指す革新的なオンラインプラットフォームです。多国籍チームによって主導され、国際コミュニティと日本の医療提供者・支援者の連携を促進しています。",
+      "project_three_tech_frontend": "TypeScript、Vue.js、Nuxt、Tailwind CSS、GraphQL、Cypress、Vitest、Pinia",
+      "project_three_tech_other": "-",
+      "project_three_task_one": "機能やUX/UIの改善・実装を担当"
+    },
+    "skills": {
+      "heading": "技術スキル",
+      "subheading_frontend": "フロントエンドスキル",
+      "frontend_skills": "React、Vue.js、Svelte/SvelteKit",
+      "subheading_backend": "バックエンドスキル",
+      "backend_skills": "Node.js、Express.js、Knex、Prisma、FastAPI、PostgreSQL",
+      "subheading_language": "プログラミング言語",
+      "language_skills": "JavaScript、TypeScript、Python、SQL",
+      "subheading_testing": "テスト",
+      "testing_skills": "Vitest、pytest"
+    },
+    "footer": {
+      "footer_text": "© 2025 Lisa Broersen. All rights reserved."
+    }
+  }  

@@ -1,30 +1,36 @@
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
+
 <template>
         <div class="border-t-0 border-b border-[rgb(var(--color-text-base))] 
             lg:border-l lg:border-r 
             p-4 lg:p-8">
       <div class="p-8">
-        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">Technical Skills</h1>
+        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.heading") }}</h1>
         <div class="mt-5">
             <table class="table-auto w-full">
       <tbody>
         <tr>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">Frontend Skills</h2>
-            <p>React, Vue.js, Svelte/SvelteKit</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_frontend") }}</h2>
+            <p>{{ t("skills.frontend_skills") }}</p>
         </td>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">Backend Skills</h2>
-            <p>Node.js, Express.js, Knex, Prisma, FastAPI, PostgreSQL</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_backend") }}</h2>
+            <p>{{ t("skills.backend_skills") }}</p>
           </td>
         </tr>
         <tr>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">Languages</h2>
-            <p>JavaScript, TypeScript, Python, SQL</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_language") }}</h2>
+            <p>{{ t("skills.language_skills") }}</p>
           </td>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">Testing</h2>
-            <p>Vitest, pytest</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_testing") }}</h2>
+            <p>{{ t("skills.testing_skills") }}</p>
           </td>
         </tr>
       </tbody>

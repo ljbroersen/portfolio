@@ -1,0 +1,60 @@
+{
+    "navbar": {
+        "about": "About Me",
+        "projects": "Projects & Engagement",
+        "skills": "Tech Skills"
+    },
+    "about": {
+        "heading": "My name is Lisa Broersen, a Full-stack Engineer based in Yokohama, Japan.",
+        "description": "Being able to work on both the frontend and the backend, my speciality lies in JavaScript/TypeScript, React and Node.js.",
+        "description_two": "With my work and skills, I want to make a difference and help people.",
+        "github_link": "Follow on GitHub",
+        "linkedin_link": "Follow on LinkedIn",
+        "email_link": "lj.broersen@gmail.com"
+    },
+    "projects": {
+        "heading": "Projects & Engagement",
+        "subheading_one": "Projects",
+        "subheading_two": "Engagement",
+        "tech_heading": "Tech stack",
+        "tech_frontend": "Frontend",
+        "tech_backend": "Backend",
+        "tech_other": "Other",
+        "tasks_heading": "Tasks",
+        "project_one_title": "Vitae Aggregate",
+        "project_one_description": "Vitae Aggregate is a web-based resume management system built using Svelte, TypeScript, and Tailwind CSS. This application allows users to create, view, modify, and download resumes in ATS-compliant PDF format.",
+        "project_one_tech_frontend": "TypeScript, Svelte/SvelteKit, Tailwind CSS",
+        "project_one_tech_backend": "Python, Django REST, pytest, PostgreSQL",
+        "project_one_tech_other": "Docker, figma",
+        "project_one_task_one": "Drafted the database schema in a way that it could be dynamically used later.",
+        "project_one_task_two": "Set up the Models, Views and Routes with Python and the Django REST API framework and made sure the data could be retrieved from the PostgreSQL database.",
+        "project_one_task_three": "Converted figma mockups to a responsive mobile-first UI.",
+        "project_two_title": "TradEx",
+        "project_two_description": "TradEx is an application that provides users with real-time financial news and AI-powered insights. The platform integrates with external APIs to deliver the latest market updates and allows users to interact with an AI chatbot for personalized financial discussions.",
+        "project_two_tech_frontend": "TypeScript, React, Tailwind CSS, Vitest",
+        "project_two_tech_backend": "Python, FastAPI, pytest",
+        "project_two_tech_other": "-",
+        "project_two_task_one": "Set up the backend, so that the charts and AI outputs could be rendered.",
+        "project_two_task_two": "Configured the API endpoints with FastAPI.",
+        "project_two_task_three": "Set up and configured testing with pytest and Vitest for both frontend and backend.",
+        "project_three_title": "Find a Doc, Japan",
+        "project_three_description": "Find a Doc is an innovative online platform dedicated to enhancing healthcare accessibility for all individuals in Japan. Spearheaded by a diverse multinational team, the project fosters robust collaborations with both international communities and Japanese service providers and supporters.",
+        "project_three_tech_frontend": "TypeScript, Vue.js, Nuxt, Tailwind CSS, GraphQL, Cypress, Vitest, Pinia",
+        "project_three_tech_other": "-",
+        "project_three_task_one": "Responsible for improving and implementing features, UX/UI, etc."
+    },
+    "skills": {
+        "heading": "Technical Skills",
+        "subheading_frontend": "Frontend Skills",
+        "frontend_skills": "React, Vue.js, Svelte/SvelteKit",
+        "subheading_backend": "Backend Skills",
+        "backend_skills": "Node.js, Express.js, Knex, Prisma, FastAPI, PostgreSQL",
+        "subheading_language": "Languages",
+        "language_skills": "JavaScript, TypeScript, Python, SQL",
+        "subheading_testing": "Testing",
+        "testing_skills": "Vitest, pytest"
+    },
+    "footer": {
+        "footer_text": "© 2025 Lisa Broersen. All rights reserved."
+    }
+}
