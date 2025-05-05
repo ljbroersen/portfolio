@@ -1,8 +1,8 @@
 {
     "navbar": {
-      "about": "私について",
-      "projects": "プロジェクトとエンゲージメント",
-      "skills": "技術スキル"
+        "about": "About Me",
+        "projects": "Projects & Engagement",
+        "skills": "Tech Skills"
     },
     "about": {
       "heading": "ブローセン・リサと申します。日本の横浜を住んでいるフルスタックエンジニアです。",
@@ -13,7 +13,7 @@
       "email_link": "lj.broersen@gmail.com"
     },
     "projects": {
-      "heading": "プロジェクトと取り組み",
+      "heading": "プロジェクトとエンゲージメント",
       "subheading_one": "プロジェクト",
       "subheading_two": "エンゲージメント",
       "tech_heading": "技術スタック",
