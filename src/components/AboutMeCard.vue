@@ -16,9 +16,6 @@ const { t } = useI18n()
         <p>{{ t("about.description_two") }}</p>
     </div>
     <div class="flex flex-col w-full xl:w-1/2 pt-8 xl:pt-0 xl:ml-24">
-        <!-- <div class="w-[300px] h-[300px] bg-[rgb(var(--color-secondary))] flex justify-center items-center">
-        <span class="text-white">Image</span>
-      </div> -->
       <img src="../assets/photo_self_300px.png" width="300px" height="300px">
       <div class="flex flex-col mt-5 justify-between">
           <div class="flex flex-row"><img src="../assets/github_logo.svg" alt="GitHub Logo" class="mb-3 mr-3"><a href="https://github.com/ljbroersen" aria-label="Link to GitHub profile">{{ t("about.github_link") }}</a></div>
