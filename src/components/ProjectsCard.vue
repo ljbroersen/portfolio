@@ -1,5 +1,7 @@
 <template>
-    <div class="border-[1px] border-[rgb(var(--color-text-base))] border-t-[0px] p-8">
+        <div class="border-t-0 border-b border-[rgb(var(--color-text-base))] 
+            lg:border-l lg:border-r 
+            p-4 lg:p-8">
       <div class="p-8">
         <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">Projects & Engagement</h1>
         <h2 class="text-2xl font-bold">Projects</h2>
