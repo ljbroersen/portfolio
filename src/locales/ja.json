@@ -5,7 +5,7 @@
         "skills": "Tech Skills"
     },
     "about": {
-      "heading": "ブローセン・リサと申します。日本の横浜を住んでいるフルスタックエンジニアです。",
+      "heading": "ブローセン・リサと申します。横浜を住んでいるフルスタックエンジニアです",
       "description": "フロントエンドとバックエンドの両方に対応できるエンジニアとして、JavaScript/TypeScript、React、Node.jsを得意としています。",
       "description_two": "自分のスキルと仕事を通じて、人々の役に立ち、社会に貢献したいと考えています。",
       "github_link": "GitHubでフォロー",
