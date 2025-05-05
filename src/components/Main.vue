@@ -7,10 +7,8 @@ import SkillsCard from "./SkillsCard.vue";
 </script>
 
 <template>
-  <div class="min-h-screen flex justify-center bg-[rgb(var(--color-bg-primary))] text-[rgb(var(--color-text-base))]">
-    <div class="hidden lg:block">
-  <Navbar />
-</div>
+  <div class="min-h-screen flex flex-col xl:flex-row justify-center bg-[rgb(var(--color-bg-primary))] text-[rgb(var(--color-text-base))]">
+    <Navbar />
     <div class="w-full max-w-5xl bg-[rgb(var(--color-bg-secondary))] rounded-lg shadow">
       <section id="about">
         <AboutMeCard />
