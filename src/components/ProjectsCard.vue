@@ -90,6 +90,7 @@ const { t } = useI18n()
               <br />
               <h3 class="text-lg text-[rgb(var(--color-tertiary))]">{{ t('projects.tasks_heading')}}</h3>
                 <li>{{ t('projects.project_three_task_one')}}</li>
+                 <a href="https://github.com/ourjapanlife/findadoc-web/issues?q=author%3Aljbroersen" class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer">{{ t('projects.github_link_contributions_project')}}</a>
             </div>
         </div>
       </div>
