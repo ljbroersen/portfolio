@@ -16,6 +16,9 @@
         "heading": "Projects & Engagement",
         "subheading_one": "Projects",
         "subheading_two": "Engagement",
+        "name_project_link_explanation": "Please click on the name of the project for the GitHub repository.",
+        "demo_video_link": "Demo Video",
+        "demo_video_not_visible": "Your browser does not support the video format.",
         "tech_heading": "Tech stack",
         "tech_frontend": "Frontend",
         "tech_backend": "Backend",
@@ -52,7 +55,7 @@
         "subheading_language": "Languages",
         "language_skills": "JavaScript, TypeScript, Python, SQL",
         "subheading_testing": "Testing",
-        "testing_skills": "Vitest, pytest"
+        "testing_skills": "Vitest, pytest, Jest"
     },
     "footer": {
         "footer_text": "© 2025 Lisa Broersen. All rights reserved."

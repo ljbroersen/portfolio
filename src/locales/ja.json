@@ -16,6 +16,9 @@
       "heading": "プロジェクトとエンゲージメント",
       "subheading_one": "プロジェクト",
       "subheading_two": "エンゲージメント",
+      "name_project_link_explanation": "プロジェクト名をクリックするとGitHubリポジトリが表示します。",
+      "demo_video_not_visible": "お使いのブラウザはビデオフォーマットに対応しません。",
+      "demo_video_link": "デモビデオ",
       "tech_heading": "技術スタック",
       "tech_frontend": "フロントエンド",
       "tech_backend": "バックエンド",
@@ -25,7 +28,7 @@
       "project_one_description": "Vitae Aggregateは、Svelte、TypeScript、Tailwind CSS を使用して構築されたWebベースの履歴書管理システムです。ユーザーはATS対応のPDF形式で履歴書を作成、表示、編集、ダウンロードすることができます。",
       "project_one_tech_frontend": "TypeScript、Svelte/SvelteKit、Tailwind CSS",
       "project_one_tech_backend": "Python、Django REST、pytest、PostgreSQL",
-      "project_one_tech_other": "Docker、Figma",
+      "project_one_tech_other": "Docker、figma",
       "project_one_task_one": "後の動的利用を想定してデータベーススキーマを設計",
       "project_one_task_two": "PythonとDjango REST APIでモデル、ビュー、ルートを設定し、PostgreSQLからのデータ取得を実装",
       "project_one_task_three": "FigmaのモックアップをモバイルファーストでレスポンシブUIに変換",
@@ -52,7 +55,7 @@
       "subheading_language": "プログラミング言語",
       "language_skills": "JavaScript、TypeScript、Python、SQL",
       "subheading_testing": "テスト",
-      "testing_skills": "Vitest、pytest"
+      "testing_skills": "Vitest、pytest, Jest"
     },
     "footer": {
       "footer_text": "© 2025 Lisa Broersen. All rights reserved."
