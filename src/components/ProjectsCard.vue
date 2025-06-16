@@ -75,6 +75,7 @@ const { t } = useI18n()
                 <li>{{ t('projects.project_two_task_one')}}</li>
                 <li>{{ t('projects.project_two_task_two')}}</li>
                 <li>{{ t('projects.project_two_task_three')}}</li>
+                <li>{{ t('projects.project_two_task_four')}}</li>
             </div>
         </div>
         <h2 class="text-2xl font-bold">{{ t('projects.subheading_two')}}</h2>
@@ -90,6 +91,7 @@ const { t } = useI18n()
               <br />
               <h3 class="text-lg text-[rgb(var(--color-tertiary))]">{{ t('projects.tasks_heading')}}</h3>
                 <li>{{ t('projects.project_three_task_one')}}</li>
+                <li>{{ t('projects.project_three_task_two')}}</li>
                  <a href="https://github.com/ourjapanlife/findadoc-web/issues?q=author%3Aljbroersen" class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer">{{ t('projects.github_link_contributions_project')}}</a>
             </div>
         </div>

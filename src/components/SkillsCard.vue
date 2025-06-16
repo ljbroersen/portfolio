@@ -15,24 +15,30 @@ const { t } = useI18n()
       <tbody>
         <tr>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_frontend") }}</h2>
-            <p>{{ t("skills.frontend_skills") }}</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_languages") }}</h2>
+            <p>{{ t("skills.language_skills") }}</p>
         </td>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_backend") }}</h2>
-            <p>{{ t("skills.backend_skills") }}</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_frameworks") }}</h2>
+            <p>{{ t("skills.frameworks_skills") }}</p>
           </td>
         </tr>
         <tr>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_language") }}</h2>
-            <p>{{ t("skills.language_skills") }}</p>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_styling_ui") }}</h2>
+            <p>{{ t("skills.styling_ui_skills") }}</p>
           </td>
           <td class="px-4 py-2">
-            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_testing") }}</h2>
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_testing_frameworks") }}</h2>
             <p>{{ t("skills.testing_skills") }}</p>
           </td>
         </tr>
+         <tr>
+          <td class="px-4 py-2">
+            <h2 class="text-2xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.subheading_tools_devops") }}</h2>
+            <p>{{ t("skills.tools_devops_skills") }}</p>
+          </td>
+          </tr>
       </tbody>
     </table>
         </div>
