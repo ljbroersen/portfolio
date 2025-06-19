@@ -60,6 +60,7 @@ const { t } = useI18n()
                 <li>{{ t('projects.project_one_task_one')}}</li>
                 <li>{{ t('projects.project_one_task_two')}}</li>
                 <li>{{ t('projects.project_one_task_three')}}</li>
+                <li>{{ t('projects.project_one_task_four')}}</li>
             </div>
             <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
               <img src="https://github.com/builders-weekend-tradex/tradex-frontend/raw/main/src/assets/tradex-logo.png" width="75px" height="75px" class="m-4">
