@@ -47,8 +47,8 @@
       "project_three_description": "Find a Docは、日本における医療アクセスの向上を目指す革新的なオンラインプラットフォームです。多国籍チームによって主導され、国際コミュニティと日本の医療提供者・支援者の連携を促進しています。",
       "project_three_tech_frontend": "TypeScript、Vue.js、Nuxt、Tailwind CSS、GraphQL、Cypress、Vitest、Pinia",
       "project_three_tech_other": "GitHub Issues, CI/CD (GitHub Actions)",
-      "project_three_task_one": "Vue.jsとTypeScriptを用いてフロントエンド機能の開発と改善に貢献し、アクセシビリティ、コンポーネントの再利用性、レスポンシブUI設計に注力",
-      "project_three_task_two": "コードレビューや機能要件の議論、プロダクト目標との整合性確認のために、他部門のチームメンバーと協力"
+      "project_three_task_one": "Vue.jsとTypeScriptを⽤いたフロントエンド機能の開発と改善に貢献し、アクセシビリティ、コンポーネントの再利⽤性、レスポンシブなUIデザインに注⼒",
+      "project_three_task_two": "クロスファンクショナルチームのメンバーと協⼒してコードレビュー、機能要件の議論を⾏い、プロダクト⽬標との整合性を確保"
     },
     "skills": {
       "heading": "技術スキル",
