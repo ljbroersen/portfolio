@@ -103,7 +103,7 @@ const { t } = useI18n()
                     @click="openModerationPanelRedesignModal"
                     class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer"
                   >
-                    Moderation Panel redesign
+                    {{ t('projects.project_three_task_three')}}
                   </button>
                 </li>
                 <ModerationPanelRedesignModal 

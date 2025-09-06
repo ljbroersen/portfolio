@@ -48,7 +48,13 @@
       "project_three_tech_frontend": "TypeScript、Vue.js、Nuxt、Tailwind CSS、GraphQL、Cypress、Vitest、Pinia",
       "project_three_tech_other": "GitHub Issues, CI/CD (GitHub Actions)",
       "project_three_task_one": "Vue.jsとTypeScriptを⽤いたフロントエンド機能の開発と改善に貢献し、アクセシビリティ、コンポーネントの再利⽤性、レスポンシブなUIデザインに注⼒",
-      "project_three_task_two": "クロスファンクショナルチームのメンバーと協⼒してコードレビュー、機能要件の議論を⾏い、プロダクト⽬標との整合性を確保"
+      "project_three_task_two": "クロスファンクショナルチームのメンバーと協⼒してコードレビュー、機能要件の議論を⾏い、プロダクト⽬標との整合性を確保",
+      "project_three_task_three": "Moderation Panel redesign",
+      "project_three_task_three_modal_title": "Moderation Panel Redesign",
+      "project_three_task_three_modal_status": "Status:",
+      "project_three_task_three_modal_status_inprogress": "In Progress",
+      "project_three_task_three_modal_subheading_date_one": "July - August 2025",
+      "project_three_task_three_modal_subheading_date_one_explanation": "The new design uses a more modern and visual layout, making information easier to read and understand at a glance. This way, users can find what they need faster and get a clearer overview without feeling overwhelmed."
     },
     "skills": {
       "heading": "技術スキル",
