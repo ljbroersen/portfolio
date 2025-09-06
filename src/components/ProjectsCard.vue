@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
+import ModerationPanelRedesignModal from './pages/findadoc/ModerationPanelRedesignModal.vue'
 
-const showModal = ref(false)
-const openVideoModal = () => (showModal.value = true)
-const closeVideoModal = () => (showModal.value = false)
+const showVitaeAggregateVideoModal = ref(false)
+const openVitaeAggregateVideoModal = () => (showVitaeAggregateVideoModal.value = true)
+const closeVitaeAggregateVideoModal = () => (showVitaeAggregateVideoModal.value = false)
+
+const showModerationPanelRedesignModal = ref(false)
+const openModerationPanelRedesignModal = () => (showModerationPanelRedesignModal.value = true)
+const closeModerationPanelRedesignModal = () => (showModerationPanelRedesignModal.value = false)
 
 const { t } = useI18n()
 </script>
@@ -22,19 +27,19 @@ const { t } = useI18n()
               <img src="https://github.com/vitaeaggregate/main/raw/dev/frontend/src/lib/Logo.png" width="75px" height="75px" class="m-4">
               <a href="https://github.com/vitaeaggregate/main"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_one_title')}}</h2></a>
               <p>{{ t('projects.project_one_description')}}</p>
-              <button @click="openVideoModal" class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer">
+              <button @click="openVitaeAggregateVideoModal" class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer">
                 {{ t('projects.demo_video_link')}}
               </button>
               <div
-                v-if="showModal"
+                v-if="showVitaeAggregateVideoModal"
                 class="fixed inset-0 z-50 flex items-center justify-center bg-[rgb(var(--color-bg-primary))] bg-opacity-60"
-                @click.self="closeVideoModal"
+                @click.self="closeVitaeAggregateVideoModal"
               >
                 <div
                   class="bg-[rgb(var(--color-bg-secondary))] rounded-lg w-[90%] max-w-sm shadow-xl relative pt-10 pb-4 px-4"
                 >
                   <button
-                    @click="closeVideoModal"
+                    @click="closeVitaeAggregateVideoModal"
                     class="absolute top-2 right-2 text-[rgb(var(--color-tertiary))] text-2xl font-bold"
                     aria-label="Close"
                   >
@@ -93,7 +98,28 @@ const { t } = useI18n()
               <h3 class="text-lg text-[rgb(var(--color-tertiary))]">{{ t('projects.tasks_heading')}}</h3>
                 <li>{{ t('projects.project_three_task_one')}}</li>
                 <li>{{ t('projects.project_three_task_two')}}</li>
-                 <a href="https://github.com/ourjapanlife/findadoc-web/issues?q=assignee%3Aljbroersen" class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer">{{ t('projects.github_link_contributions_project')}}</a>
+                <li>
+                  <button 
+                    @click="openModerationPanelRedesignModal"
+                    class="text-[rgb(var(--color-primary))] underline mt-2 cursor-pointer"
+                  >
+                    Moderation Panel redesign
+                  </button>
+                </li>
+                <ModerationPanelRedesignModal 
+                  :show="showModerationPanelRedesignModal" 
+                  @close="closeModerationPanelRedesignModal" 
+                />
+                <br />
+                <div class="flex items-center space-x-2 mt-2">
+                  <img src="../assets/github_logo.svg" alt="GitHub logo" class="w-5 h-5"/>
+                  <a 
+                    href="https://github.com/ourjapanlife/findadoc-web/issues?q=assignee%3Aljbroersen" 
+                    class="text-[rgb(var(--color-primary))] underline cursor-pointer"
+                  >
+                    {{ t('projects.github_link_contributions_project') }}
+                  </a>
+                </div>
             </div>
         </div>
       </div>
