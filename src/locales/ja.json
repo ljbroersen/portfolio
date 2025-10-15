@@ -67,7 +67,7 @@
       "subheading_testing_frameworks": "テストフレームワーク",
       "testing_skills": "Jest, Vitest, pytest",
       "subheading_tools_devops": "ツールとDevOps",
-      "tools_devops_skills": "Git/GitHub, PostgreSQL, Knex, Vercel, Heroku, CI/CD (GitHub Actions)"
+      "tools_devops_skills": "Git/GitHub, CI/CD (GitHub Actions), PostgreSQL, Knex, Vercel, Docker"
     },
     "footer": {
       "footer_text": "© 2025 Lisa Broersen. All rights reserved."
