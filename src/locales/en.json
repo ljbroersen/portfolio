@@ -53,13 +53,19 @@
         "project_three_task_three_modal_title": "Moderation Panel Redesign",
         "project_three_task_three_modal_status": "Status:",
         "project_three_task_three_modal_status_inprogress": "In Progress",
+        "project_three_task_three_modal_status_done": "Done",
         "project_three_task_three_modal_subheading_date_one": "July - August 2025",
-        "project_three_task_three_modal_subheading_date_one_explanation": "The new design uses a more modern and visual layout, making information easier to read and understand at a glance. This way, users can find what they need faster and get a clearer overview without feeling overwhelmed."
+        "project_three_task_three_modal_subheading_date_one_explanation": "The new design uses a more modern and visual layout, making information easier to read and understand at a glance. This way, users can find what they need faster and get a clearer overview without feeling overwhelmed.",
+        "project_four_title": "Shiori",
+        "project_four_description": "TBA",
+        "project_four_tech_frontend": "TypeScript, React, React Router, Eden, Vite, Tailwind CSS",
+        "project_four_tech_backend": "Bun, Elysia, TanStack Query, PostgreSQL, Drizzle",
+        "project_four_tech_other": "-"
     },
     "skills": {
         "heading": "Technical Skills",
         "subheading_languages": "Languages",
-        "language_skills": "JavaScript, TypeScript, Python, SQL",
+        "language_skills": "JavaScript, TypeScript, SQL",
         "subheading_frameworks": "Frameworks",
         "frameworks_skills": "React, Vue.js, Svelte/SvelteKit, Node.js, FastAPI, Express",
         "subheading_styling_ui": "Styling & UI",
@@ -67,9 +73,9 @@
         "subheading_testing_frameworks": "Testing Frameworks",
         "testing_skills": "Jest, Vitest, pytest",
         "subheading_tools_devops": "Tools & DevOps",
-        "tools_devops_skills": "Git/GitHub, CI/CD (GitHub Actions), PostgreSQL, Knex, Vercel, Docker"
+        "tools_devops_skills": "Git/GitHub, CI/CD (GitHub Actions), PostgreSQL, Knex, Vercel, Docker, Android Studio"
     },
     "footer": {
-        "footer_text": "© 2025 Lisa Broersen. All rights reserved."
+        "footer_text": "© 2026 Lisa Broersen. All rights reserved."
     }
 }

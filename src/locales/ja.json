@@ -53,13 +53,19 @@
       "project_three_task_three_modal_title": "モデレーションパネルの再設計",
       "project_three_task_three_modal_status": "ステータス:",
       "project_three_task_three_modal_status_inprogress": "進行中",
+      "project_three_task_three_modal_status_done": "完了",
       "project_three_task_three_modal_subheading_date_one": "2025年7月～8月",
-      "project_three_task_three_modal_subheading_date_one_explanation": "新しいデザインはよりモダンで視覚的なレイアウトを採用し、情報を一目で読みやすく理解しやすくしています。これにより、ユーザーは必要な情報をより迅速に見つけ、圧倒されることなく明確な全体像を把握できます。"
+      "project_three_task_three_modal_subheading_date_one_explanation": "新しいデザインはよりモダンで視覚的なレイアウトを採用し、情報を一目で読みやすく理解しやすくしています。これにより、ユーザーは必要な情報をより迅速に見つけ、圧倒されることなく明確な全体像を把握できます。",
+      "project_four_title": "Shiori",
+      "project_four_description": "準備中",
+      "project_four_tech_frontend": "TypeScript, React, React Router, Eden, Vite, Tailwind CSS",
+      "project_four_tech_backend": "Bun, Elysia, TanStack Query, PostgreSQL, Drizzle",
+      "project_four_tech_other": "-"
     },
     "skills": {
       "heading": "技術スキル",
       "subheading_languages": "言語",
-      "language_skills": "JavaScript, TypeScript, Python, SQL",
+      "language_skills": "JavaScript, TypeScript, SQL",
       "subheading_frameworks": "フレームワーク",
       "frameworks_skills": "React, Vue.js, Svelte/SvelteKit, Node.js, FastAPI, Express",
       "subheading_styling_ui": "スタイリングとUI",
@@ -67,9 +73,9 @@
       "subheading_testing_frameworks": "テストフレームワーク",
       "testing_skills": "Jest, Vitest, pytest",
       "subheading_tools_devops": "ツールとDevOps",
-      "tools_devops_skills": "Git/GitHub, CI/CD (GitHub Actions), PostgreSQL, Knex, Vercel, Docker"
+      "tools_devops_skills": "Git/GitHub, CI/CD (GitHub Actions), PostgreSQL, Knex, Vercel, Docker, Android Studio"
     },
     "footer": {
-      "footer_text": "© 2025 Lisa Broersen. All rights reserved."
+      "footer_text": "© 2026 Lisa Broersen. All rights reserved."
     }
   }  

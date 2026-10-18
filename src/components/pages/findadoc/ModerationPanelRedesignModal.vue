@@ -56,8 +56,8 @@ const { t } = useI18n();
         <div class="flex flex-wrap gap-2 sm:gap-4 mt-1 sm:mt-2 text-md sm:text-lg text-gray-300">
           <span>
             ⏳ {{ t('projects.project_three_task_three_modal_status') }}
-            <span class="bg-yellow-600 text-white px-2 py-0.5 rounded text-sm">
-              {{ t('projects.project_three_task_three_modal_status_inprogress') }}
+            <span class="bg-green-600 text-white px-2 py-0.5 rounded text-sm">
+              {{ t('projects.project_three_task_three_modal_status_done') }}
             </span>
           </span>
         </div>
