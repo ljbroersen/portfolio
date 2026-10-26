@@ -24,7 +24,7 @@ const { t } = useI18n()
         <h2 class="text-2xl font-bold">{{ t('projects.subheading_one')}}</h2>
         <div class="flex flex-col mt-5">
           <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
-              <h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))]">{{ t('projects.project_four_title')}}</h2>
+              <a href="https://github.com/ljbroersen/Shiori"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_four_title')}}</h2></a>
               <p>{{ t('projects.project_four_description')}}</p>
               <br />
               <h3 class="text-lg text-[rgb(var(--color-tertiary))]">{{ t('projects.tech_heading')}}</h3>

@@ -57,10 +57,10 @@
         "project_three_task_three_modal_subheading_date_one": "July - August 2025",
         "project_three_task_three_modal_subheading_date_one_explanation": "The new design uses a more modern and visual layout, making information easier to read and understand at a glance. This way, users can find what they need faster and get a clearer overview without feeling overwhelmed.",
         "project_four_title": "Shiori",
-        "project_four_description": "TBA",
-        "project_four_tech_frontend": "TypeScript, React, React Router, Eden, Vite, Tailwind CSS",
-        "project_four_tech_backend": "Bun, Elysia, TanStack Query, PostgreSQL, Drizzle",
-        "project_four_tech_other": "-"
+        "project_four_description": "A full-stack web application designed to bring books, reading progress, and series tracking together in one personal library. Shiori aims to unify reading data from services like Goodreads and Kobo while keeping the user's own library as the source of truth.",
+        "project_four_tech_frontend": "React, TypeScript, Vite, TanStack Query, React Router, Tailwind CSS",
+        "project_four_tech_backend": "Bun, Elysia, Eden",
+        "project_four_tech_other": "PostgreSQL, Drizzle ORM, Bun Workspaces"
     },
     "skills": {
         "heading": "Technical Skills",

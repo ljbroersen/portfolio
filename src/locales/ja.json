@@ -57,10 +57,10 @@
       "project_three_task_three_modal_subheading_date_one": "2025年7月～8月",
       "project_three_task_three_modal_subheading_date_one_explanation": "新しいデザインはよりモダンで視覚的なレイアウトを採用し、情報を一目で読みやすく理解しやすくしています。これにより、ユーザーは必要な情報をより迅速に見つけ、圧倒されることなく明確な全体像を把握できます。",
       "project_four_title": "Shiori",
-      "project_four_description": "準備中",
-      "project_four_tech_frontend": "TypeScript, React, React Router, Eden, Vite, Tailwind CSS",
-      "project_four_tech_backend": "Bun, Elysia, TanStack Query, PostgreSQL, Drizzle",
-      "project_four_tech_other": "-"
+      "project_four_description": "本・読書の進捗・シリーズ情報を一元管理できるフルスタックWebアプリケーション。GoodreadsやKoboなどのサービスから読書データを取り込みながら、外部サービスに依存せず、自分自身のライブラリを中心に読書体験を管理できることを目指しています。",
+      "project_four_tech_frontend": "React, TypeScript, Vite, TanStack Query, React Router, Tailwind CSS",
+      "project_four_tech_backend": "Bun, Elysia, Eden",
+      "project_four_tech_other": "PostgreSQL, Drizzle ORM, Bun Workspaces"
     },
     "skills": {
       "heading": "技術スキル",
