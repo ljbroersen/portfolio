@@ -9,7 +9,7 @@ const { t } = useI18n()
             lg:border-l lg:border-r 
             p-4 lg:p-8">
       <div class="p-8">
-        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">{{ t("skills.heading") }}</h1>
+        <h1 class="text-3xl font-bold text-[rgb(var(--color-accent))]">{{ t("skills.heading") }}</h1>
         <div class="mt-5">
             <table class="table-auto w-full">
       <tbody>

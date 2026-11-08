@@ -10,7 +10,7 @@ const { t } = useI18n()
             p-4 lg:p-8">
       <div class="flex flex-col p-8 xl:flex-row xl:justify-start ">
         <div class="w-full sm:w-4/5 md:w-3/4 lg:w-1/2">
-        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">{{ t("about.heading") }}</h1>
+        <h1 class="text-3xl font-bold text-[rgb(var(--color-accent))]">{{ t("about.heading") }}</h1>
         <p>{{ t("about.description") }}</p>
         <br />
         <p>{{ t("about.description_two") }}</p>

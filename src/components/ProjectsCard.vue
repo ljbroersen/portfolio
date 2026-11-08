@@ -19,11 +19,11 @@ const { t } = useI18n()
             lg:border-l lg:border-r 
             p-4 lg:p-8">
       <div class="p-8">
-        <h1 class="text-3xl font-bold text-[rgb(var(--color-primary))]">{{ t('projects.heading')}}</h1>
+        <h1 class="text-3xl font-bold text-[rgb(var(--color-accent))]">{{ t('projects.heading')}}</h1>
         <p>{{ t('projects.name_project_link_explanation')}}</p>
         <h2 class="text-2xl font-bold">{{ t('projects.subheading_one')}}</h2>
         <div class="flex flex-col mt-5">
-          <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
+          <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-8 my-4">
               <a href="https://github.com/ljbroersen/Shiori"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_four_title')}}</h2></a>
               <p>{{ t('projects.project_four_description')}}</p>
               <br />
@@ -33,7 +33,7 @@ const { t } = useI18n()
               <p><b>{{ t('projects.tech_other')}}:</b> {{ t('projects.project_four_tech_other')}}</p>
               <br />
             </div>
-            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
+            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-8 my-4">
               <img src="https://github.com/vitaeaggregate/main/raw/dev/frontend/src/lib/Logo.png" width="75px" height="75px" class="m-4">
               <a href="https://github.com/vitaeaggregate/main"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_one_title')}}</h2></a>
               <p>{{ t('projects.project_one_description')}}</p>
@@ -77,7 +77,7 @@ const { t } = useI18n()
                 <li>{{ t('projects.project_one_task_three')}}</li>
                 <li>{{ t('projects.project_one_task_four')}}</li>
             </div>
-            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
+            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-8 my-4">
               <img src="https://github.com/builders-weekend-tradex/tradex-frontend/raw/main/src/assets/tradex-logo.png" width="75px" height="75px" class="m-4">
               <a href="https://github.com/builders-weekend-tradex/tradex-frontend"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_two_title')}}</h2></a>
               <p>{{ t('projects.project_two_description')}}</p>
@@ -96,7 +96,7 @@ const { t } = useI18n()
         </div>
         <h2 class="text-2xl font-bold">{{ t('projects.subheading_two')}}</h2>
         <div class="flex flex-col mt-5">
-            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-4 my-4">
+            <div class="w-full bg-[rgb(var(--color-bg-tertiary))] p-8 my-4">
               <img src="../assets/findadoc_heart-circle.png" width="75px" height="75px" class="m-4">
               <a href="https://github.com/ourjapanlife/findadoc-web"><h2 class="text-xl font-bold text-[rgb(var(--color-tertiary))] hover:text-[rgb(var(--color-primary))]">{{ t('projects.project_three_title')}}</h2></a>
               <p>{{ t('projects.project_three_description')}}</p>
